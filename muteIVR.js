@@ -2,7 +2,7 @@ require(Modules.IVR);
 
 // Global declarations
 let audioMuted = false;                     // is the audio currently muted
-let jigasiCall, userCall;
+// let jigasiCall, userCall;                // reinitialization error if used after outbound
 
 /*** Adjust this constants for your installation ***/
 const repromptTime = 30 * 10 * 1000;        // How long to wait before reminding users of their mute state
